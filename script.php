@@ -14,7 +14,7 @@ if(isset($_POST['test1']) || isset($_POST['no1'])){
     echo "<pre>caricamento...</pre>";
     my_flush();
     
-    $link = mysqli_connect("localhost","root","","collegali");
+    $link = mysqli_connect("localhost","root","","nomeDB");
     
     
     

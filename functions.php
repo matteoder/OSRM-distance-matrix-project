@@ -17,7 +17,7 @@ function matrix($k,$k1,array $lon_arr,array $lat_arr,array $id_arr,$type,$link,$
             ++$contatore;
             
             //costruzione della richiesta GET al server OSRM
-            $url="http://hulk.diei.unipg.it:5000/table/v1/".$type."/".$lon_arr[$j].",".$lat_arr[$j].";".$lon_arr[$i].",".$lat_arr[$i]."?annotations=distance,duration";
+            $url="http://###########/table/v1/".$type."/".$lon_arr[$j].",".$lat_arr[$j].";".$lon_arr[$i].",".$lat_arr[$i]."?annotations=distance,duration";
             //indici utili per tenere traccia delle coppie calcolate
           
           
